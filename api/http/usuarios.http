@@ -1,0 +1,12 @@
+//teste das requisições REST dos prestadores
+@baseURL = http://localhost:4000/api/usuarios
+
+
+###
+//POST insere um novo registro
+POST {{baseURL}}
+Content-Type: application/json
+{
+    "nome": "zé",
+}
+
